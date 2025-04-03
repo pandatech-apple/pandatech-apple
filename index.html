@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda-Tech App Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #ffffff;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #000;
+            margin: 0;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 40px 20%;
+            box-sizing: border-box;
+            gap: 40px;
+        }
+
+        .left {
+            flex: 0 0 40%;
+        }
+
+        .left p {
+            font-size: 1.2em;
+            line-height: 1.6em;
+            text-align: justify;
+        }
+
+        .right {
+            flex: 0 0 40%;
+        }
+
+        .right img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+                padding: 20px;
+            }
+
+            .left, .right {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>WELLCOME TO STORE PANDA-TECH</h1>
+</header>
+
+<div class="content">
+    <div class="left">
+        <p>
+            Welcome to Panda-Tech – your premium destination on the Apple Store!  
+            We specialize in crafting unique, elegant, and highly effective applications for users around the globe.  
+            Each of our products blends creativity, cutting-edge technology, and exceptional user experience.  
+            With hundreds of thousands of downloads and glowing reviews, Panda-Tech is proud to be the go-to choice  
+            for those who seek perfection and utility in every app.  
+            Discover the digital world of Panda-Tech today!
+        </p>
+    </div>
+    <div class="right">
+        <img src="/logo.png" alt="Panda-Tech App Store Preview">
+    </div>
+</div>
+
+</body>
+</html>
