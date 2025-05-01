@@ -1,1 +1,12 @@
-#123
+google.com, pub-4793975677981221, DIRECT, f08c47fec0942fa0
+google.com, pub-7529800677506929, DIRECT, f08c47fec0942fa0
+#BidMachine
+bidmachine.io, 484, DIRECT
+facebook.com, 402494555675672, DIRECT, c3e20eee3f780d68
+
+#Updated 28th February
+#Google
+google.com,pub-7279990999620104,DIRECT,f08c47fec0942fa0
+#Membrana Media - Notsy
+membrana.media,cdab1b25-73a6-7c33-ff18-d660ef066465,DIRECT
+notsy.io,cdab1b25-73a6-7c33-ff18-d660ef066465,DIRECT
